@@ -26,6 +26,7 @@ export default defineConfig({
   use: {
     trace: 'on',
     screenshot: 'on',
+    baseURL: 'https://demo.playwright.dev/todomvc/#/',
   },
 
   projects: [
